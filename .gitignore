@@ -1,19 +1,17 @@
 ##Gradle##
 
-# Ignore Gradle GUI config
-gradle-app.setting
 # Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
+!**/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
 .gradle
 **/build/
-!gradle-wrapper.jar
 !**/src/**/build/
 # Cache of project
 .gradletasknamecache
 
 ### IntelliJ IDEA ###
-**/.idea/*
-!**/.idea/saveactions_settings.xml
+.idea/*
+!**/saveactions_settings.xml
 out/
 .run/
 
