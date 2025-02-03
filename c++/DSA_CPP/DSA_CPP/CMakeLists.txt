@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (DSA_CPP "DSA_CPP.cpp" "DSA_CPP.h")
+add_executable (DSA_CPP "DSA_CPP.cpp" "DSA_CPP.h" "test/Medium/Sliding_Window/LongestSubstringNoRepeatTest.cpp"  "test/Medium/Sliding_Window/LongestSubstringNoRepeat.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET DSA_CPP PROPERTY CXX_STANDARD 20)
